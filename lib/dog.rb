@@ -1,16 +1,9 @@
-require 'pry'
-class Dog
-  attr_accessor :name
-    def initialize(breed, name)
-        @breed = breed
-        @name = name
+class Dog 
+  def initalize(breed)
+      @breed = breed
     end
-
-
+    
+    def breed=(breed)
+      @breed = "mutt"
+    end
 end
-
-fido = Dog.new("Shepherd", "Fido")
-
-renji = Dog.new("Husky", "Renji")
-binding.pry
-puts "."
