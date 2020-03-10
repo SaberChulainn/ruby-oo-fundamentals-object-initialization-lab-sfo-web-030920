@@ -8,8 +8,8 @@ class Dog
 
 end
 
-fido.new(Shepherd, "Fido")
+fido.new("Shepherd", "Fido")
 
-renji.new(Husky, "Renji")
+renji.new("Husky", "Renji")
 binding.pry
 puts "."
