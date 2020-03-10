@@ -1,9 +1,15 @@
-class Dog 
-  def initalize(breed)
-      @breed = breed
+require 'pry'
+class Dog
+
+    def initialize(breed, name)
+        @breed = breed
+        @name = name
     end
-    
-    def breed=(breed)
-      @breed = "mutt"
-    end
+
 end
+
+fido.new(Shepherd, "Fido")
+
+renji.new(Husky, "Renji")
+binding.pry
+puts "."
