@@ -1,13 +1,11 @@
 require 'pry'
 class Dog
-
+  attr_accessor :name
     def initialize(breed, name)
         @breed = breed
         @name = name
     end
-    def name=(name)
-      @name = name
-    end
+
 
 end
 
